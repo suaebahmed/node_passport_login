@@ -16,3 +16,9 @@ app.use(function(req, res, next) {
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   next();
 });
+## problem (5)
+<h3>handlebars access has been denied to resolve the property</h1>
+<p>i solve this issue by installing a dev dependency for handlebars:</p>
+  
+npm i -D handlebars@4.5.0
+
