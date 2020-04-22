@@ -26,4 +26,5 @@ solved: <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-storage.j
 <p>i solve this issue by installing a dev dependency for handlebars:</p>
   
 npm i -D handlebars@4.5.0
-
+## problem (6)
+expo install $ npm install expo-cli --global --verbose
