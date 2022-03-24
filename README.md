@@ -19,8 +19,6 @@ solved: <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-storage.j
 });
 </p>
 
-
-
 ## problem (5)
 <h3>handlebars access has been denied to resolve the property</h1>
 <p>i solve this issue by installing a dev dependency for handlebars:</p>
@@ -28,3 +26,8 @@ solved: <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-storage.j
 npm i -D handlebars@4.5.0
 ## problem (6)
 expo install $ npm install expo-cli --global --verbose
+
+## problem (7)
+<h3>SASS couldn't compiled/Error: Node Sass version 7.0.1 is incompatible with ^4.0.0.</h3>
+npm i -D sass
+npm install sass
